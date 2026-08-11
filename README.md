@@ -1,59 +1,54 @@
-# Leon84ych
+# Hi, I'm Leon Suarez 👋
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 22.0.5.
 
-## Development server
 
-To start a local development server, run:
+---
 
-```bash
-ng serve
-```
+### 👨‍💻 About Me
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+* 🔭 **Current Focus:** Software Engineer working on scalable systems and enterprise financial solutions .
+* 📍 **Based in:** Bogotá, D.C., Colombia.
+* 🌱 **Learning & Exploring:** Cloud Architecture, Distributed Systems, and Modern Backend/Frontend Frameworks.
+* 💬 **Ask me about:** Software Development, Backend Architecture, and Web Engineering.
+* 📫 **Reach out:** Connect with me on [Instagram](https://www.instagram.com/leon84ych/), [Tiktok](https://www.tiktok.com/@leon84ych) or check out my [Personal Portfolio](https://leon84ych.github.io/leon84ych/).
 
-## Code scaffolding
+---
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+### 🛠️ Tech Stack & Skills
 
-```bash
-ng generate component component-name
-```
+| Domain | Technologies & Tools |
+| :--- | :--- |
+| **Languages** | Java, JavaScript / TypeScript, Python |
+| **Backend & Cloud** | Spring Boot, Node.js, REST APIs, Microservices, AWS / Cloud Infrastructure |
+| **Frontend** | React, HTML5, CSS3, Web Development |
+| **Databases & Tools** | SQL, PostgreSQL, Git, GitHub Actions, Docker |
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+---
 
-```bash
-ng generate --help
-```
+### 📊 GitHub Activity & Stats
 
-## Building
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=leon84ych&show_icons=true&theme=radical&count_private=true&hide_border=true" alt="Leon's GitHub Stats" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-languages/?username=leon84ych&layout=compact&theme=radical&hide_border=true" alt="Top Languages" width="48%" />
+</div>
 
-To build the project run:
+<br />
 
-```bash
-ng build
-```
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=leon84ych&theme=radical&hide_border=true" alt="GitHub Streak" />
+</div>
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+---
 
-## Running unit tests
+### 🤝 Connect with Me
 
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
+<p align="left">
+  <a href="https://www.instagram.com/leon84ych/" target="_blank">
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
+  </a>
+  <a href="https://leon84ych.github.io/leon84ych/" target="_blank">
+    <img src="https://img.shields.io/badge/Personal_Website-000000?style=for-the-badge&logo=About.me&logoColor=white" alt="Website" />
+  </a>
+</p>
 
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+*“Simplicity is prerequisite for reliability.” — Edsger W. Dijkstra*
