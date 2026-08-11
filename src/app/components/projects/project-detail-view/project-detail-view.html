@@ -1,0 +1,67 @@
+<!-- Structural Backdrop Modal Filter: Only renders if an active item signal layer is selected -->
+<div class="modal-backdrop" *ngIf="activeProject" (click)="closeModal()">
+
+  <!-- Inner Content White Board Container (Stop click propagation so card doesn't close on click) -->
+  <div class="detail-card-window" (click)="$event.stopPropagation()">
+
+    <!-- Top Modal Utility Header Row Layout -->
+    <div class="modal-header">
+      <div class="tags-row">
+        <span class="modal-badge-status">{{ activeProject.status }}</span>
+        <span class="modal-badge-type">{{ activeProject.projectType }}</span>
+      </div>
+      <button class="close-modal-btn" (click)="closeModal()">✕</button>
+    </div>
+
+    <!-- Main Title Content Expansion Layer -->
+    <h2 class="modal-title">{{ activeProject.name }}</h2>
+    <p class="modal-timestamp">Última revisión: {{ activeProject.lastUpdated }}</p>
+
+    <p class="modal-full-bio">{{ activeProject.description }}</p>
+
+    <!-- Conditional Video Content Integration Clips Row -->
+    <div class="modal-section-block" *ngIf="activeProject.videoDemos && activeProject.videoDemos.length > 0">
+      <span class="modal-section-label">Videos:</span>
+      <div class="modal-video-grid">
+        <a *ngFor="let video of activeProject.videoDemos" [href]="video.url" target="_blank" class="video-action-btn">
+          🎬 Ver en {{ video.platform }}
+        </a>
+      </div>
+    </div>
+
+    <div class="modal-section-block">
+      <span class="modal-section-label">Demos:</span>
+      <!-- 3. Immediate Live Public Web URL Deployment Links -->
+      <div class="deployments-box" *ngIf="activeProject.deployments && activeProject.deployments.length > 0">
+        <div class="deploy-links-list">
+          <!-- Iteración sobre todos los elementos del arreglo deployments -->
+          <a *ngFor="let deploy of activeProject.deployments" [href]="deploy.url" target="_blank"
+            class="link-btn live-btn">
+            🌐 {{ deploy.platformName }}
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Expanded Technical Framework Stack -->
+    <div class="modal-section-block">
+      <span class="modal-section-label">Tecnologías:</span>
+      <div class="modal-tech-pills">
+        <span class="tech-pill" *ngFor="let tech of activeProject.technologies">{{ tech }}</span>
+      </div>
+    </div>
+
+    <!-- All Connected Specialized GitHub Repository Resource Handles -->
+    <div class="modal-section-block">
+      <span class="modal-section-label">Repositorios:</span>
+      <div class="modal-repos-grid">
+        <a *ngFor="let repo of activeProject.githubRepos" [href]="repo.url" target="_blank" class="repo-action-btn">
+          📂 {{ repo.repoType }} Source Tree Link
+        </a>
+      </div>
+    </div>
+
+
+
+  </div>
+</div>

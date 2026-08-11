@@ -1,0 +1,38 @@
+<div class="project-card">
+
+    <!-- 2. Core Card Information Text -->
+    <h3 class="project-title">{{ project.name }}</h3>
+    <p class="project-description">{{ project.description }}</p>
+    <!-- 1. Main Viewport Images Carousel -->
+    <div class="carousel-container" *ngIf="project.screenshots && project.screenshots.length > 0">
+        <div class="carousel-viewport">
+            <img [src]="project.screenshots[currentImageIndex]" alt="Active View" class="carousel-image">
+        </div>
+        <ng-container *ngIf="project.screenshots.length > 1">
+            <button class="arrow-btn left-arrow" (click)="prevImage($event)">‹</button>
+            <button class="arrow-btn right-arrow" (click)="nextImage($event)">›</button>
+        </ng-container>
+        <div class="carousel-dots-wrapper" *ngIf="project.screenshots.length > 1">
+            <button *ngFor="let img of project.screenshots; let idx = index" class="dot-indicator"
+                [ngClass]="{'active-dot': idx === currentImageIndex}" (click)="setCurrentImage(idx, $event)">
+            </button>
+        </div>
+    </div>
+
+
+
+    <!-- 3. Immediate Live Public Web URL Deployment Links -->
+    <div class="deployments-box" *ngIf="project.deployments && project.deployments.length > 0">
+        <div class="deploy-links-list">
+            <!-- Acceso directo al primer elemento indexado del arreglo -->
+            <a [href]="project.deployments[0].url" target="_blank" class="link-btn live-btn"> 
+                🌐 {{ project.deployments[0].platformName }}
+            </a>
+        </div>
+    </div>
+
+    <!-- 4. Expansion Core Action Trigger Button Layout -->
+    <button class="view-more-btn" (click)="triggerDetailExpansion()">
+        Detalles →
+    </button>
+</div>

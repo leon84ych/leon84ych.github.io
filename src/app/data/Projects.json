@@ -1,0 +1,122 @@
+[
+  {
+    "name": "Me la juego",
+    "description": "Plataforma de juegos interactivos y grupales para ejercitar la memoria.",
+    "githubRepos": [
+      {
+        "repoType": "Frontend",
+        "url": "https://github.com/leon84ych/melajuego-fe"
+      },
+      {
+        "repoType": "Backend",
+        "url": "https://github.com/leon84ych/melajuego-be"
+      }
+    ],
+    "status": "En progreso",
+    "lastUpdated": "Agosto 2026",
+    "starsCount": 0,
+    "technologies": [
+      "Angular",
+      "TypeScript",
+      "Websockets",
+      "Express"
+    ],
+    "projectType": "Web",
+    "screenshots": [
+      "images/projects/fuchile/fuchile1.jpg",
+      "images/projects/fuchile/fuchile2.jpg"
+    ],
+    "videoDemos": [
+      {
+        "platform": "TikTok",
+        "url": "https://www.tiktok.com/@leon84ych/video/7659589679649443090"
+      },
+      {
+        "platform": "Instagram",
+        "url": "https://www.instagram.com/reel/DaeRx6HNZk6/"
+      }
+    ],
+    "deployments": [
+      {
+        "platformName": "Demo 1",
+        "url": "https://melajuego.vercel.app/"
+      },
+      {
+        "platformName": "Demo 2",
+        "url": "https://melajuegofe.netlify.app/"
+      }
+    ]
+  },
+  {
+    "name": "Simulador Reforma Laboral",
+    "description": "Plataforma que permite simular los cambios de las últimas reformas laborales",
+    "githubRepos": [
+      {
+        "repoType": "Frontend",
+        "url": "https://github.com/leon84ych/fuchile"
+      }
+    ],
+    "status": "Terminado",
+    "lastUpdated": "Just now",
+    "starsCount": 3,
+    "technologies": [
+      "Angular",
+      "NgRx Stack",
+      "TailwindCSS"
+    ],
+    "projectType": "Mobile",
+    "screenshots": [
+      "images/projects/laboral/laboral1.jpg",
+      "images/projects/laboral/laboral2.jpg",
+      "images/projects/laboral/laboral3.jpg",
+      "images/projects/laboral/laboral4.jpg"
+    ],
+    "videoDemos": [
+      {
+        "platform": "TikTok",
+        "url": "https://tiktok.com"
+      }
+    ],
+    "deployments": [
+      {
+        "platformName": "Firebase Hosting",
+        "url": "https://firebaseapp.com"
+      }
+    ]
+  },
+  {
+    "name": "Agua Bogotá",
+    "description": "Sábes cuanto se factura por tu consumo de agua en Bogotá?",
+    "githubRepos": [
+      {
+        "repoType": "Frontend",
+        "url": "https://github.com/leon84ych/aguabogota"
+      }
+    ],
+    "status": "Terminado",
+    "lastUpdated": "Just now",
+    "starsCount": 0,
+    "technologies": [
+      "HTML",
+      "Javascript",
+      "Bootstrap"
+    ],
+    "projectType": "Mobile",
+    "screenshots": [
+      "images/projects/aguabogota/Aguabogota1.jpg",
+      "images/projects/aguabogota/Aguabogota2.jpg"
+    ],
+    "videoDemos": [
+      {
+        "platform": "TikTok",
+        "url": "https://www.tiktok.com/@leon84ych/"
+      }
+    ],
+    "deployments": [
+      {
+        "platformName": "Github",
+        "url": "https://leon84ych.github.io/aguabogota/"
+      }
+    ]
+  }
+]

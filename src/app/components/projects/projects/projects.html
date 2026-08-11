@@ -1,0 +1,9 @@
+<div class="projects-section-container">
+    <h2 class="main-section-title">Listado de Proyectos</h2>
+
+    <div class="projects-responsive-grid">
+        <!-- Passing down context items downstream via data-attribute square brackets binding -->
+        <app-project-item *ngFor="let projectItem of myProjectsList" [project]="projectItem">
+        </app-project-item>
+    </div>
+</div>

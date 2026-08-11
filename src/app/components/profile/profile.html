@@ -1,0 +1,26 @@
+<div class="creative-grid-container">
+  
+  <!-- Left Column: Visual & Core Bio -->
+  <div class="grid-card-left">
+    <div class="avatar-wrapper">
+      <img [src]="profileData.avatarUrl" alt="Profile Image" class="profile-avatar">
+    </div>
+    <h1 class="profile-name">{{ profileData.fullName }}</h1>
+    <p class="profile-tagline">{{ profileData.currentRole }}</p>
+    <hr class="divider">
+    <p class="profile-bio">{{ profileData.biography }}</p>
+  </div>
+
+  <!-- Right Column: Structured Information List -->
+  <div class="grid-card-right">
+    <h2 class="section-title">Overview</h2>
+    <div class="info-list">
+      <!-- Loops dynamically through your JSON details array -->
+      <div class="info-item" *ngFor="let item of profileData.details">
+        <span class="info-label">{{ item.label }}</span>
+        <span class="info-text">{{ item.text }}</span>
+      </div>
+    </div>
+  </div>
+
+</div>

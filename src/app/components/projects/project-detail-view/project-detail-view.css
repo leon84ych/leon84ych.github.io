@@ -1,0 +1,126 @@
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(15, 23, 42, 0.6); /* Translucent slate blur filter */
+  backdrop-filter: blur(6px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999; /* Absolute top stack layout anchor placement layer */
+  padding: 20px;
+}
+
+.detail-card-window {
+  background: #ffffff;
+  width: 100%;
+  max-width: 600px;
+  border-radius: 24px;
+  padding: 35px;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  animation: slideUpFade 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+  max-height: 90vh;
+  overflow-y: auto;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.tags-row {
+  display: flex;
+  gap: 8px;
+}
+
+.modal-badge-status { background: #fee2e2; color: #991b1b; padding: 4px 12px; font-weight: 700; border-radius: 20px; font-size: 11px; text-transform: uppercase;}
+.modal-badge-type { background: #f1f5f9; color: #475569; padding: 4px 12px; font-weight: 700; border-radius: 20px; font-size: 11px; }
+
+.close-modal-btn {
+  background: none;
+  border: none;
+  font-size: 20px;
+  color: #94a3b8;
+  cursor: pointer;
+}
+.close-modal-btn:hover { color: #dc2626; }
+
+.modal-title { font-size: 26px; color: #1e293b; margin: 0 0 4px 0; }
+.modal-timestamp { font-size: 12px; color: #94a3b8; margin: 0 0 25px 0; }
+.modal-full-bio { font-size: 15px; line-height: 1.7; color: #475569; margin-bottom: 30px; }
+
+.modal-section-block {
+  margin-bottom: 25px;
+}
+
+.modal-section-label {
+  display: block;
+  font-size: 12px;
+  font-weight: 700;
+  color: #94a3b8;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 10px;
+}
+
+.modal-tech-pills { display: flex; flex-wrap: wrap; gap: 8px; }
+.tech-pill { background: #f8fafc; border: 1px solid #e2e8f0; padding: 5px 12px; border-radius: 6px; font-size: 13px; color: #334155; font-weight: 500; }
+
+.modal-repos-grid, .modal-video-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 8px;
+}
+
+.repo-action-btn, .video-action-btn {
+  background: #1e293b;
+  color: white;
+  text-decoration: none;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  transition: background 0.2s ease;
+}
+.repo-action-btn:hover { background: #dc2626; }
+.video-action-btn { background: #f8fafc; color: #1e293b; border: 1px solid #cbd5e1; }
+.video-action-btn:hover { background: #000; color: #fff; }
+
+@keyframes slideUpFade {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+
+.deployments-box {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.deployments-label {
+  font-size: 12px;
+  font-weight: 700;
+  color: #64748b;
+  text-transform: uppercase;
+}
+
+.deploy-links-list {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.live-btn {
+  background: white;
+  color: #dc2626;
+  border: 1px solid #dc2626;
+}
+
+.live-btn:hover {
+  background: #fef2f2;
+}
