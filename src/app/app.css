@@ -1,32 +1,38 @@
-.tabs-nav {
-  display: flex;
-  gap: 8px;
-  margin-bottom: 24px;
-  border-bottom: 2px solid #e2e8f0;
+.navigation-header {
+  max-width: 900px;
+  margin: 40px auto 0 auto;
+  padding: 0 20px;
 }
 
+.tabs-nav {
+  display: flex;
+  gap: 16px;
+  border-bottom: 2px solid #e2e8f0;
+  padding-bottom: 8px;
+}
+
+/* Base style for inactive tabs */
 .tab-btn {
   background: none;
   border: none;
-  padding: 12px 20px;
-  font-size: 1rem;
+  font-size: 20px;
   font-weight: 600;
   color: #64748b;
   cursor: pointer;
-  border-bottom: 2px solid transparent;
-  margin-bottom: -2px;
-  transition: all 0.2s ease;
+  padding: 6px 16px;
+  border-left: 5px solid transparent; /* Reserve space for left red border */
+  transition: all 0.2s ease-in-out;
+  border-radius: 0 4px 4px 0;
 }
 
 .tab-btn:hover {
-  color: #0f172a;
+  color: #1e293b;
 }
 
+/* Active Tab Style (Matching your .main-section-title style) */
 .tab-btn.active {
-  color: #2563eb;
-  border-bottom-color: #2563eb;
-}
-
-.page-body-wrapper {
-  width: 100%;
+  font-size: 24px;
+  color: #1e293b;
+  border-left: 5px solid #dc2626; /* Your signature red border marker */
+  padding-left: 12px;
 }

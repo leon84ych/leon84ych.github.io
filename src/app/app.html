@@ -1,21 +1,24 @@
-<nav class="tabs-nav">
-  <button 
-    class="tab-btn" 
-    [class.active]="activeTab === 'projects'" 
-    (click)="selectTab('projects')">
-    📁 Proyectos
-  </button>
-  <button 
-    class="tab-btn" 
-    [class.active]="activeTab === 'profile'" 
-    (click)="selectTab('profile')">
-    👤 Perfil
-  </button>
-</nav>
+<header class="navigation-header">
+  <div class="tabs-nav">
+    <button 
+      class="tab-btn" 
+      [class.active]="activeTab === 'projects'" 
+      (click)="selectTab('projects')">
+      Proyectos
+    </button>
+    <button 
+      class="tab-btn" 
+      [class.active]="activeTab === 'profile'" 
+      (click)="selectTab('profile')">
+      Perfil
+    </button>
+  </div>
+</header>
 
 <main class="page-body-wrapper">
   @if (activeTab === 'projects') {
     <app-projects></app-projects>
+    <app-project-detail-view></app-project-detail-view>
   }
 
   @if (activeTab === 'profile') {
