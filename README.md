@@ -1,54 +1,54 @@
-# Hi, I'm Leon Suarez 👋
+# Hola, visitante, soy Leon Suarez 👋
 
-
-
----
-
-### 👨‍💻 About Me
-
-* 🔭 **Current Focus:** Software Engineer working on scalable systems and enterprise financial solutions .
-* 📍 **Based in:** Bogotá, D.C., Colombia.
-* 🌱 **Learning & Exploring:** Cloud Architecture, Distributed Systems, and Modern Backend/Frontend Frameworks.
-* 💬 **Ask me about:** Software Development, Backend Architecture, and Web Engineering.
-* 📫 **Reach out:** Connect with me on [Instagram](https://www.instagram.com/leon84ych/), [Tiktok](https://www.tiktok.com/@leon84ych) or check out my [Personal Portfolio](https://leon84ych.github.io/leon84ych/).
+Soy un Ingeniero de Sistemas interesado en construir herramientas que permitan analizar la realidad.
 
 ---
 
-### 🛠️ Tech Stack & Skills
+### 👨‍💻 Sobre mí
 
-| Domain | Technologies & Tools |
+* 🔭 **Enfoque actual:** Sistemas colaborativos e interactivos mediante el uso de Websockets y WebRTC.
+* 📍 **Ubicación:** Bogotá, D.C., Colombia.
+* 🌱 **Aprendiendo e investigando:** Arquitectura en la nube, sistemas distribuidos y frameworks modernos para Backend/Frontend.
+* 💬 **Pregúntame sobre:** Desarrollo de Software, Arquitectura Backend e Ingeniería Web.
+* 📫 **Otros intereses:** Fotografía en [Instagram](https://www.instagram.com/leon84ych/), Paternidad en [TikTok](https://www.tiktok.com/@leon84ych) o visita mi [Portafolio Personal](https://leon84ych.github.io/leon84ych/).
+
+---
+
+### 🛠️ Tecnologías y Habilidades
+
+| Dominio | Tecnologías y Herramientas |
 | :--- | :--- |
-| **Languages** | Java, JavaScript / TypeScript, Python |
-| **Backend & Cloud** | Spring Boot, Node.js, REST APIs, Microservices, AWS / Cloud Infrastructure |
-| **Frontend** | React, HTML5, CSS3, Web Development |
-| **Databases & Tools** | SQL, PostgreSQL, Git, GitHub Actions, Docker |
+| **Lenguajes** | Java, JavaScript / TypeScript, Python |
+| **Backend y Nube** | Spring Boot, Node.js, REST APIs, Microservicios, AWS / Infraestructura en la Nube |
+| **Frontend** | React, HTML5, CSS3, Desarrollo Web |
+| **Bases de Datos y Herramientas** | SQL, PostgreSQL, Git, GitHub Actions, Docker |
 
 ---
 
-### 📊 GitHub Activity & Stats
+### 📊 Actividad y Estadísticas de GitHub
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=leon84ych&show_icons=true&theme=radical&count_private=true&hide_border=true" alt="Leon's GitHub Stats" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-languages/?username=leon84ych&layout=compact&theme=radical&hide_border=true" alt="Top Languages" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=leon84ych&show_icons=true&theme=radical&count_private=true&hide_border=true" alt="Estadísticas de GitHub de Leon" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-languages/?username=leon84ych&layout=compact&theme=radical&hide_border=true" alt="Lenguajes más usados" width="48%" />
 </div>
 
 <br />
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=leon84ych&theme=radical&hide_border=true" alt="GitHub Streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=leon84ych&theme=radical&hide_border=true" alt="Racha de contribuciones en GitHub" />
 </div>
 
 ---
 
-### 🤝 Connect with Me
+### 🤝 Conéctate conmigo
 
 <p align="left">
   <a href="https://www.instagram.com/leon84ych/" target="_blank">
     <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
   </a>
   <a href="https://leon84ych.github.io/leon84ych/" target="_blank">
-    <img src="https://img.shields.io/badge/Personal_Website-000000?style=for-the-badge&logo=About.me&logoColor=white" alt="Website" />
+    <img src="https://img.shields.io/badge/Sitio_Web-000000?style=for-the-badge&logo=About.me&logoColor=white" alt="Sitio Web" />
   </a>
 </p>
 
-*“Simplicity is prerequisite for reliability.” — Edsger W. Dijkstra*
+*“La simplicidad es un prerrequisito para la confiabilidad.” — Edsger W. Dijkstra*
