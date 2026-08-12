@@ -1,27 +1,15 @@
-import { Component } from '@angular/core';
-import { CommonModule } from '@angular/common'; // Required for data binding
+import { Component, ViewEncapsulation } from '@angular/core';
+import { MarkdownComponent } from 'ngx-markdown';
 
 @Component({
   selector: 'app-profile',
   standalone: true,
-  imports: [CommonModule],
+  imports: [MarkdownComponent],
   templateUrl: './profile.html',
-  styleUrls: ['./profile.css']
+  styleUrls: ['./profile.css'],
+  encapsulation: ViewEncapsulation.None // <-- Add this line
 })
 export class Profile {
   // Your profile data JSON structure
-  profileData = {
-    avatarUrl: 'images/profile.jpeg',
-    fullName: 'Leon Camilo Suarez Lopez',
-    currentRole: 'Software Engineer',
-    biography: '',
-    
-    // Key-value pairs for scannable grid info
-    details: [
-      { label: 'Ubicación', text: 'Bogota, Colombia' },
-      { label: 'Experiencia', text: '12+ Años' },
-      { label: 'Availability', text: 'Open to Opportunities' },
-      { label: 'Trabajando en', text: 'Angular & Frontend Systems' }
-    ]
-  };
+  readmeUrl = 'https://raw.githubusercontent.com/leon84ych/leon84ych.github.io/refs/heads/main/README.md';
 }

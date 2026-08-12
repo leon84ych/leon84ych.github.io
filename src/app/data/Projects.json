@@ -1,7 +1,7 @@
 [
   {
     "name": "Me la juego",
-    "description": "Plataforma de juegos interactivos y grupales para ejercitar la memoria.",
+    "description": "Juegos interactivos y grupales para ejercitar la memoria.",
     "githubRepos": [
       {
         "repoType": "Frontend",
@@ -38,18 +38,18 @@
     ],
     "deployments": [
       {
-        "platformName": "Demo 1",
+        "platformName": "Ver Online 1",
         "url": "https://melajuego.vercel.app/"
       },
       {
-        "platformName": "Demo 2",
+        "platformName": "Ver Online 2",
         "url": "https://melajuegofe.netlify.app/"
       }
     ]
   },
   {
     "name": "Simulador Reforma Laboral",
-    "description": "Plataforma que permite simular los cambios de las últimas reformas laborales",
+    "description": "Simulador de cambios en las reformas laborales",
     "githubRepos": [
       {
         "repoType": "Frontend",
@@ -79,8 +79,8 @@
     ],
     "deployments": [
       {
-        "platformName": "Firebase Hosting",
-        "url": "https://firebaseapp.com"
+        "platformName": "Ver Online",
+        "url": "https://leon84ych.github.io/laboral/"
       }
     ]
   },
@@ -114,7 +114,7 @@
     ],
     "deployments": [
       {
-        "platformName": "Github",
+        "platformName": "Ver Online",
         "url": "https://leon84ych.github.io/aguabogota/"
       }
     ]

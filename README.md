@@ -46,7 +46,7 @@ Soy un Ingeniero de Sistemas interesado en construir herramientas que permitan a
   <a href="https://www.instagram.com/leon84ych/" target="_blank">
     <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
   </a>
-  <a href="https://leon84ych.github.io/leon84ych/" target="_blank">
+  <a href="https://leon84ych.github.io" target="_blank">
     <img src="https://img.shields.io/badge/Sitio_Web-000000?style=for-the-badge&logo=About.me&logoColor=white" alt="Sitio Web" />
   </a>
 </p>

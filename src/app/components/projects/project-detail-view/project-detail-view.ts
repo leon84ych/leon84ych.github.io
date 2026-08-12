@@ -1,12 +1,12 @@
 import { Component, inject } from '@angular/core';
-import { CommonModule, NgClass } from '@angular/common';
+import { CommonModule } from '@angular/common';
 import { ProjectSelection } from '../../../services/project-selection';
 
 
 @Component({
   selector: 'app-project-detail-view',
   standalone: true,
-  imports: [CommonModule, NgClass],
+  imports: [CommonModule],
   templateUrl: './project-detail-view.html',
   styleUrls: ['./project-detail-view.css']
 })
