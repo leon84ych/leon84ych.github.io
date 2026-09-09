@@ -1,7 +1,44 @@
 [
   {
+    "name": "Misión Rescate",
+    "description": "Plataforma que simula el porcentaje de esperanza de vida con base en los rescatistas y el tiempo transcurrido",
+    "githubRepos": [
+      {
+        "repoType": "Frontend",
+        "url": "https://github.com/leon84ych/mision-rescate"
+      }
+    ],
+    "status": "Terminado",
+    "lastUpdated": "Just now",
+    "starsCount": 3,
+    "technologies": [
+      "Javascript",
+      "Leaflet",
+      "HTML/CSS"
+    ],
+    "projectType": "WEB/Mobile",
+    "screenshots": [
+      "images/projects/mision-rescate/mision-rescate1.webp",
+      "images/projects/mision-rescate/mision-rescate2.webp",
+      "images/projects/mision-rescate/mision-rescate3.webp",
+      "images/projects/mision-rescate/mision-rescate4.webp"
+    ],
+    "videoDemos": [
+      {
+        "platform": "TikTok",
+        "url": "https://tiktok.com"
+      }
+    ],
+    "deployments": [
+      {
+        "platformName": "Mision Rescate",
+        "url": "https://leon84ych.github.io/mision-rescate/"
+      }
+    ]
+  },
+  {
     "name": "Me la juego",
-    "description": "Juegos interactivos y grupales para ejercitar la memoria.",
+    "description": "Plataforma de juegos interactivos y grupales para ejercitar la memoria.",
     "githubRepos": [
       {
         "repoType": "Frontend",
@@ -23,8 +60,8 @@
     ],
     "projectType": "Web",
     "screenshots": [
-      "images/projects/fuchile/fuchile1.jpg",
-      "images/projects/fuchile/fuchile2.jpg"
+      "images/projects/melajuego/melajuego1.png",
+      "images/projects/melajuego/melajuego2.jpg"
     ],
     "videoDemos": [
       {
@@ -38,18 +75,18 @@
     ],
     "deployments": [
       {
-        "platformName": "Ver Online 1",
+        "platformName": "Demo 1",
         "url": "https://melajuego.vercel.app/"
       },
       {
-        "platformName": "Ver Online 2",
+        "platformName": "Demo 2",
         "url": "https://melajuegofe.netlify.app/"
       }
     ]
   },
   {
     "name": "Simulador Reforma Laboral",
-    "description": "Simulador de cambios en las reformas laborales",
+    "description": "Plataforma que permite simular los cambios de las últimas reformas laborales",
     "githubRepos": [
       {
         "repoType": "Frontend",
@@ -79,7 +116,7 @@
     ],
     "deployments": [
       {
-        "platformName": "Ver Online",
+        "platformName": "Laboral",
         "url": "https://leon84ych.github.io/laboral/"
       }
     ]
@@ -114,7 +151,7 @@
     ],
     "deployments": [
       {
-        "platformName": "Ver Online",
+        "platformName": "Github",
         "url": "https://leon84ych.github.io/aguabogota/"
       }
     ]
