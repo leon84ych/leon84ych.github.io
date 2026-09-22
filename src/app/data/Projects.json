@@ -1,5 +1,42 @@
 [
   {
+    "name": "Sumaq Yachay",
+    "description": "Aplicación modular de aprendizaje interactivo y recuerdo activo (active recall), diseñada con un enfoque offline-first ",
+    "githubRepos": [
+      {
+        "repoType": "Frontend",
+        "url": "https://github.com/leon84ych/sumaq-yachay"
+      }
+    ],
+    "status": "En progreso",
+    "lastUpdated": "Just now",
+    "starsCount": 3,
+    "technologies": [
+      "Angular",
+      "Google App Scripts",
+      "Dexie.js"
+    ],
+    "projectType": "WEB/Mobile",
+    "screenshots": [
+      "images/projects/sumaq-yachay/sumaq-yachay1.jpeg",
+      "images/projects/sumaq-yachay/sumaq-yachay2.jpeg",
+      "images/projects/sumaq-yachay/sumaq-yachay3.jpeg",
+      "images/projects/sumaq-yachay/sumaq-yachay4.jpeg"
+    ],
+    "videoDemos": [
+      {
+        "platform": "TikTok",
+        "url": "https://www.tiktok.com/@leon84ych"
+      }
+    ],
+    "deployments": [
+      {
+        "platformName": "Sumaq Yachay",
+        "url": "https://leon84ych.github.io/sumaq-yachay/"
+      }
+    ]
+  },
+  {
     "name": "Misión Rescate",
     "description": "Plataforma que simula el porcentaje de esperanza de vida con base en los rescatistas y el tiempo transcurrido",
     "githubRepos": [
@@ -26,7 +63,7 @@
     "videoDemos": [
       {
         "platform": "TikTok",
-        "url": "https://tiktok.com"
+        "url": "https://www.tiktok.com/@leon84ych"
       }
     ],
     "deployments": [
@@ -111,7 +148,7 @@
     "videoDemos": [
       {
         "platform": "TikTok",
-        "url": "https://tiktok.com"
+        "url": "https://www.tiktok.com/@leon84ych"
       }
     ],
     "deployments": [

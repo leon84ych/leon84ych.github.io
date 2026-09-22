@@ -51,4 +51,4 @@ Soy un Ingeniero de Sistemas interesado en construir herramientas que permitan a
   </a>
 </p>
 
-*“La simplicidad es un prerrequisito para la confiabilidad.” — Edsger W. Dijkstra*
+*“Code is like a poem; it has to follow certain structural requirements, and yet out of that structure can come art. But code is art that does something. It is the assembly of something brand new from nothing but an idea.” — Mat Honan*
